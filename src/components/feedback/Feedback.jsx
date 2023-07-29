@@ -19,6 +19,8 @@ export const Feedback = () => {
       case 'bad':
         setBad(prevBad => prevBad + 1);
         break;
+      default:
+        return;
     }
   };
 
